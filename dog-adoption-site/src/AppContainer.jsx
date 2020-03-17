@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import AddAdoptionForm from './AddAdoptionForm'
+import AvaliableDogs from './AvaliableDogs'
 
 export default class AppContainer extends Component {
     constructor(props) {
@@ -14,8 +15,9 @@ export default class AppContainer extends Component {
     }
     render() {
         return (
-            <div>
-                <AddAdoptionForm/>
+            <div className="doggo">
+                <AddAdoptionForm updateAvailDogs = {this.updateAvailDogs}/>
+                <AvaliableDogs availDogs = {this.state.availDogs} />
             </div>
         )
     }

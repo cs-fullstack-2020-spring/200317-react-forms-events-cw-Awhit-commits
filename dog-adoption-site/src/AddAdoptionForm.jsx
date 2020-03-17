@@ -25,7 +25,7 @@ export default class AddAdoptionForm extends Component {
        
         this.setState({availDog:this.state.availDog})
         console.log(this.state.availDog)
-        this.props.updateAvaliDog(this.state.availDog)
+        this.props.updateAvailDogs(this.state.availDog)
         
 
     }
