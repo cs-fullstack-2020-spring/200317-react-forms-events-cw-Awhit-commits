@@ -1,4 +1,6 @@
 # 20-03-17 React Forms Events CW
+### Really close, the only requirement that your missing in clearing out your form fields and using grid to display your child components side by side. You also don't have any comments.
+### Score 4/5
 - Create a new react app called dog-adoption-site
 - Create a class based component called `AppContainer` and render it on the page
 - Create a component called `AvailableDogs` that renders on the left side of the screen and displays a list of dogs that have been put up for adoption
